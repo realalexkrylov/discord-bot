@@ -1,0 +1,16 @@
+--
+-- Файл сгенерирован с помощью SQLiteStudio v3.3.3 в Вт апр 18 22:58:46 2023
+--
+-- Использованная кодировка текста: UTF-8
+--
+PRAGMA foreign_keys = off;
+BEGIN TRANSACTION;
+
+-- Таблица: db
+CREATE TABLE db (Id PRIMARY KEY, RoleId INTEGER REFERENCES roles (RoleId));
+
+-- Таблица: roles
+CREATE TABLE roles (RoleId INTEGER PRIMARY KEY, Role);
+
+COMMIT TRANSACTION;
+PRAGMA foreign_keys = on;
