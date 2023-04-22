@@ -1,0 +1,4 @@
+User id             |Join date  |Create date |Bot   |Roles |Username
+964908806117130250  |08.04.2023 |16.04.2022  |False |2     |Radodast#1679
+377468864021266432  |06.04.2023 |07.11.2017  |False |1     |ZZAY#1667
+704375976217542667  |20.04.2023 |27.04.2020  |False |0     |whynotfu#2878
